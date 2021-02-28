@@ -45,3 +45,9 @@ while i < 5:
 # Дается 2 строки ;Aidana; и ;Adilet; . Вам нужно в результате получить смешанную
 # строку из двух имен, буква за буквой.
 # Output: AAiddialneat
+
+l = "Aidana"
+m = "Adilet"
+string = l[0] + m[0] + l[1] + m[1] + l[2] + m[2] + l[3] + m[3] + l[4] + m[4] + l[5] + m[5]
+
+print(string)
